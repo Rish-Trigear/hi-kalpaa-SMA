@@ -131,7 +131,7 @@ const Menu = ({ role }) => (
               <li key={item.label} className="menu-item">
                 <Link
                   href={item.href}
-                  className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2"
+                  className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2 rounded-md hover:bg-hiKalpaaPurpleLight md:px-2"
                 >
                   <Image
                     src={item.icon}

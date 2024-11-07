@@ -1,4 +1,11 @@
 // TEMPORARY DATA
+function getRandomDate() {
+  const today = new Date();
+  const randomDayOffset = Math.floor(Math.random() * 3); // 0, 1, or 2 days offset
+  const date = new Date(today);
+  date.setDate(today.getDate() + randomDayOffset);
+  return date;
+}
 
 export let role = "admin";
 
@@ -920,143 +927,139 @@ export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(getRandomDate().setHours(8, 0)),
+    end: new Date(getRandomDate().setHours(8, 45)),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(getRandomDate().setHours(9, 0)),
+    end: new Date(getRandomDate().setHours(9, 45)),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
+    start: new Date(getRandomDate().setHours(10, 0)),
+    end: new Date(getRandomDate().setHours(10, 45)),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
+    start: new Date(getRandomDate().setHours(11, 0)),
+    end: new Date(getRandomDate().setHours(11, 45)),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
+    start: new Date(getRandomDate().setHours(13, 0)),
+    end: new Date(getRandomDate().setHours(13, 45)),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
+    start: new Date(getRandomDate().setHours(14, 0)),
+    end: new Date(getRandomDate().setHours(14, 45)),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
+    start: new Date(getRandomDate().setHours(9, 0)),
+    end: new Date(getRandomDate().setHours(9, 45)),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
+    start: new Date(getRandomDate().setHours(10, 0)),
+    end: new Date(getRandomDate().setHours(10, 45)),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
+    start: new Date(getRandomDate().setHours(11, 0)),
+    end: new Date(getRandomDate().setHours(11, 45)),
   },
-
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(getRandomDate().setHours(14, 0)),
+    end: new Date(getRandomDate().setHours(14, 45)),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
+    start: new Date(getRandomDate().setHours(8, 0)),
+    end: new Date(getRandomDate().setHours(8, 45)),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
+    start: new Date(getRandomDate().setHours(10, 0)),
+    end: new Date(getRandomDate().setHours(10, 45)),
   },
-
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
+    start: new Date(getRandomDate().setHours(13, 0)),
+    end: new Date(getRandomDate().setHours(13, 45)),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(getRandomDate().setHours(14, 0)),
+    end: new Date(getRandomDate().setHours(14, 45)),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
+    start: new Date(getRandomDate().setHours(9, 0)),
+    end: new Date(getRandomDate().setHours(9, 45)),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
+    start: new Date(getRandomDate().setHours(10, 0)),
+    end: new Date(getRandomDate().setHours(10, 45)),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
+    start: new Date(getRandomDate().setHours(11, 0)),
+    end: new Date(getRandomDate().setHours(11, 45)),
   },
-
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
+    start: new Date(getRandomDate().setHours(14, 0)),
+    end: new Date(getRandomDate().setHours(14, 45)),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
+    start: new Date(getRandomDate().setHours(8, 0)),
+    end: new Date(getRandomDate().setHours(8, 45)),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
+    start: new Date(getRandomDate().setHours(9, 0)),
+    end: new Date(getRandomDate().setHours(9, 45)),
   },
-
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
+    start: new Date(getRandomDate().setHours(11, 0)),
+    end: new Date(getRandomDate().setHours(11, 45)),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    start: new Date(getRandomDate().setHours(13, 0)),
+    end: new Date(getRandomDate().setHours(13, 45)),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(getRandomDate().setHours(14, 0)),
+    end: new Date(getRandomDate().setHours(14, 45)),
   },
 ];
